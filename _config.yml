@@ -1,0 +1,36 @@
+# Site settings
+title: 'Tim auf der Landwehr'
+description: 'Hacker and Photographer'
+url: 'http://tadl.eu'
+baseurl: ''
+
+author:
+  name: 'Tim auf der Landwehr'
+  email: mail@tadl.eu
+  twitter_username: _tadl_
+  facebook_username: tim.adl
+  github_username:  taufderl
+  linkedin_username: timadl
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: 
+  - 'jekyll-paginate'
+
+exclude: 
+  - 'README.md'
+  - 'Gemfile'
+  - 'Gemfile.lock'
