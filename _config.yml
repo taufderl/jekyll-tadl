@@ -13,7 +13,7 @@ author:
   linkedin_username: timadl
 
 # Build settings
-destination: _site
+destination: docs
 markdown: kramdown
 highlighter: rouge
 
@@ -24,11 +24,8 @@ sass:
 kramdown:
   # use Github Flavored Markdown
   input: GFM
-  # do not replace newlines by <br>s
+  # do not replace newlines by <br>
   hard_wrap: false
-
-plugins: 
-  - 'jekyll-paginate'
 
 exclude: 
   - 'README.md'
