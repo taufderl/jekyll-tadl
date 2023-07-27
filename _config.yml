@@ -8,9 +8,8 @@ author:
   name: 'Tim auf der Landwehr'
   email: mail@tadl.eu
   twitter_username: _tadl_
-  facebook_username: tim.adl
   github_username:  taufderl
-  linkedin_username: timadl
+  linkedin_username: tadl
 
 # Build settings
 destination: docs
